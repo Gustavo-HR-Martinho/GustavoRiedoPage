@@ -1,0 +1,47 @@
+.content{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#profilePic{
+    width: 25vw;
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+h1{
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+p{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3vh;
+    text-align: center;
+}
+.iconbar{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+.iconbar-list{
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iconbar-list-iten{
+    margin: 0 auto;
+}
+.iconbar-list-link{
+    height: 3vw;
+    width: 3vw;
+}
+.iconbar-list-icon{
+    width: 3vw;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+}
+.iconbar-list-icon:hover{
+    transform: translateY(-1px);
+}
