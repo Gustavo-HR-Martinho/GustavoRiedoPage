@@ -41,6 +41,7 @@ h1{
 .card-icons img{
     margin: 1rem;
     width: 3.5rem;
+    max-width: 60px;
 }
 
 @media only screen and (max-width: 600px){
