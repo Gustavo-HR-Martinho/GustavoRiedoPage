@@ -3,12 +3,10 @@
 #profilePic{ /* My pic style */
     width: 25vw;
 
-    margin: 0 auto;
-    margin-top: 3vh;
+    margin: 1rem auto;
 }
 h1{
-    margin: 0 auto;
-    margin-top: 3vh;
+    margin: 1rem auto;
 }
 p{
     width: 50%;
@@ -16,16 +14,14 @@ p{
     font-weight: 500;
     text-align: center;
 
-    margin: 0 auto;
-    margin-top: 3vh;
+    margin: 1rem auto;
 }
 
 /* Icon bar style */
 .iconbar{
     width: 20%;
 
-    margin: 0 auto;
-    margin-top: 3vh;
+    margin: 1rem auto;
 }
 .iconbar-list{
     display: flex;
@@ -37,10 +33,12 @@ p{
 .iconbar-list-iten{
     margin: 0 auto;
 }
+.iconbar-link{
+    width: 3vw;
+    height: 3vw;
+}
 .iconbar-list-icon{
-    width: 3.5vw;
-
-    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    width: 3vw;
 }
 .iconbar-list-icon:hover{ /* Popup animation */
     transform: translateY(-1px);
@@ -52,6 +50,7 @@ p{
         width: 75vw;
     }
     .iconbar{
+        min-width: 70%;
         width: 50vw;
     }
     .iconbar-list-icon{
